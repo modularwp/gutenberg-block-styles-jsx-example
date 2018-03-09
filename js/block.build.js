@@ -81,11 +81,7 @@ registerBlockType('mdlr/styles-jsx-example', {
 		return wp.element.createElement(
 			'div',
 			{ className: className },
-			wp.element.createElement(
-				'p',
-				null,
-				'Block with styles. Built with JSX.'
-			)
+			'Block with styles. Built with JSX.'
 		);
 	},
 	save: function save(_ref2) {
@@ -94,11 +90,7 @@ registerBlockType('mdlr/styles-jsx-example', {
 		return wp.element.createElement(
 			'div',
 			{ className: className },
-			wp.element.createElement(
-				'p',
-				null,
-				'Block with styles. Built with JSX.'
-			)
+			'Block with styles. Built with JSX.'
 		);
 	}
 });

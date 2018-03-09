@@ -7,16 +7,12 @@ registerBlockType( 'mdlr/styles-jsx-example', {
 	category: 'common',
 	edit( { className } ) {
 		return (
-			<div className={ className }>
-				<p>Block with styles. Built with JSX.</p>
-			</div>
+			<div className={ className }>Block with styles. Built with JSX.</div>
 		);
 	},
 	save( { className } ) {
 		return (
-			<div className={ className }>
-				<p>Block with styles. Built with JSX.</p>
-			</div>
+			<div className={ className }>Block with styles. Built with JSX.</div>
 		);
 	},
 } );
